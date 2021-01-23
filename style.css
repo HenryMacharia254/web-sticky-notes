@@ -15,6 +15,19 @@ body {
     row-gap: 50px;
 }
 
+.header {
+    width: 100%;
+    text-align: center;
+}   
+
+.header h1{
+    position: relative;
+    font-size: 2em;
+    color: wheat;
+    margin: 0 ;
+    padding: 0%;
+}
+
 .add {
     background-color: #da48d2;
     border-radius: 20px;
@@ -71,7 +84,7 @@ body {
 .note textarea {
     outline: none;
     font-family: inherit;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border: none;
     height: 9rem;
     width: 100%;
